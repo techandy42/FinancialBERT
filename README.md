@@ -50,7 +50,7 @@
 5. Tesla Cybertruck order holders disappointed by the high prices can look forward to a more affordable Tesla model coming soon.
 ```
 *Stock Price History and Prediction*
-<img src="./assets/tesla_stock_price_prediction_graph.png" width="400" alt="description of the image"/>
+![Tesla Stock Price History Graph](./assets/tesla_stock_price_prediction_graph.png)
 
 > Example 1: Tesla
 
@@ -63,4 +63,4 @@
 5. The main news out on Apple in the early part of the month was its fourth-quarter earnings report. It showed solid numbers, topping estimates on the top and bottom lines, but the stock actually pulled back slightly on the news, falling 0.6% on Nov. 3 after two straight days of strong gains to open the month.
 ```
 *Stock Price History and Prediction*
-<img src="./assets/apple_stock_price_prediction_graph.png" width="400" alt="description of the image"/>
+![Apple Stock Price History Graph](./assets/apple_stock_price_prediction_graph.png)
