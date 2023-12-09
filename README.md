@@ -3,7 +3,8 @@
 ![Demo GIF](./assets/FinancialBERT_Streamlit_Demo_Speedup.gif)
 
 ### About
----
+<hr style="height:1px; border-width:0; color:gray; background-color:gray">
+
 - Stock price prediction model built using BERT and regression model trained on textual financial news data.
 - RAG system built on top of trained model for interactable application for predicting next month's stock price from real-world financial news headlines.
 - Demonstrates an alternative approach to the current time-series models for financial predictions.
@@ -13,7 +14,8 @@
 </a>
 
 ### Project Structure
----
+<hr style="height:1px; border-width:0; color:gray; background-color:gray">
+
 - `finance_bert_monthly_data_engineering.ipynb` contains code to extract training data from financial news datasets from Kaggle and stock price history data from Polygon.io.
 - `data.zip` contains all training data (no need to run the above notebook yourself) called `stock_data.zip` and `cleaned_training_data.jsonl`, as well as `tickers_and_names.csv` file needed for the RAG system.
 - `financial_bert_monthly_prediction_training_from_embedding_v1.ipynb` contains source code to train the Model v1 from the research paper.
