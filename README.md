@@ -24,9 +24,15 @@
 
 ### Model Training
 
-- The best-performing model, Model v2, was trained by selecting the top-k headlines from each month in the dataset, concatenating the headlines, feeding them to the FinBERT model, and using a regression model to convert the output embedding to a single numeric value representing stock price change rate from the current month to the next month.
+- The best-performing model, Model v2, was trained by (1) selecting the top-k headlines from each month in the dataset and concatenating them, (2) feeding them to the FinBERT model, (3) and using a regression model to convert the output embedding to a single numeric value representing stock price change rate from the current month to the next month.
 - The architecture for the training loop is displayed below:
 <img src="./assets/training_diagram.PNG" width="400" alt="description of the image"/>
-- Refer to the research paper for more details.
+- Please take a look at the research paper for more details.
 
 ### RAG System
+
+- Additionally, a RAG system was built to predict stock prices with real-world data.
+- The system allows the user to select a company, where (1) relevant financial news headlines are fetched from Bing Search News API, (2) the headlines are fed through Cohere Rerank API to select the top-k headlines, (3) and concatenated/feed into the trained FinancialBERT system from the `Model Training` section above to produce the stock price change rate prediction.
+- The architecture for the RAG system is displayed below:
+<img src="./assets/rag_diagram.PNG" width="400" alt="description of the image"/>
+- Please take a look at the research paper for more details.
